@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.logo h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url("https://pixabay.com/get/g15ed29f719e99e5370edba82331224107cd8a9afeaf9920fdb880c3f4225a2e5f34ba5927430dd86fdc8b72500abcf10a45dede6e951abeb939e0ea25f7ea1ab8725c106df707aed77323d62740be97d_1280.jpg")
+    no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.destinations,
+.services {
+  padding: 20px;
+  text-align: center;
+}
+
+.destination {
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+}
+
+.destination img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
